@@ -1,0 +1,84 @@
+<!DOCTYPE html	>
+<html lang="en">
+	<head>
+		<title>Alpha Blog</title>
+    <%= stylesheet_link_tag "app\assets\stylesheets\mystyles.css" %>
+	</head>
+
+	<body class="body">
+
+		<div class="container">
+			<div class="divContainer">
+				<header>
+				<div class="centerDiv">
+					<h1>Alpha Blog</h1>
+					<h3>A Ruby on Rails Application</h3>
+			  </div>
+			  <div class="centerLogo">
+			  	<%= link_to image_tag('https://www.apolloenergiesinc.com/images/AE-Logo-2.png', :size => "160x160"), 'www.apolloenergiesinc.com' %>	
+				</div>
+				</header>
+				<div style="clear:both"></div>
+				<section>
+				  <nav>
+						<ul>
+							<li><a class="active" <%= link_to 'Home', root_path %></li>
+							<li><%= link_to 'About', about_path %></li>
+							</ul>
+			  	</nav>
+			  </section>
+				<div style="float:left;width:50%;">
+			  <section>
+				  <article class="articleText">
+						<p>11. This is Article 1 and some text for my first article.  This is being as used as filler. iuhyh df fg derft
+  						 sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+	  					 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 		 					 maked. </p>
+		  			<p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+			  			 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 				 			 maked. </p>
+ 					  <p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+	 						 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 							 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 							 maked. </p>
+  				  <p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+						   maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 						   maked.  </p>
+				  </article>
+			  </section>
+			  </div>
+				<div style="float:left;width:50%;">
+			  <section>
+			   	<article class="articleText">
+						<p>22. This is Article 2 and some text for my first article.  This is being as used as filler. iuhyh df fg derft
+  						 sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+	  					 maked. </p>
+						<p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 							 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 	 						 maked. </p>
+  					<p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+  						 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 	 						 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 		 					 maked. </p>
+ 					  <p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+  						 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 	 						 maked.  </p>
+				  </article>
+  	  	</section>
+			  </div>
+				<div style="clear:both"></div>
+				<section>
+					<article>
+						<p>iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+  						 maked. iuhyh df fg derft sd aiujd unhn hdgtge hdhgafds hagrfs njakkd kdjdue wahnnf jsahdtgdf hfdhf h hfhsjk hfhlka laokd
+ 	 						 maked.  </p>
+          </article>
+				</section>
+				<footer>
+				   Copyright &copy;  <%= Date.current.year %>
+				</footer>
+			</div>
+		</div>
+	</body>
+
+</html>
